@@ -1,0 +1,42 @@
+
+.form {
+    width: 500px;
+    margin: 20px auto;
+    padding: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.form-wrapper select {
+    padding: 10px 5px;
+    font-size: 16px;
+}
+
+.form-wrapper input {
+    padding: 10px 5px;
+    outline: none;   
+    font-size: 16px;
+}
+
+
+.form-btn {
+    font-size: 16px;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    background-color: #278bce;
+    border-radius: 10px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.form-btn:hover {
+    opacity: 0.8;
+}
